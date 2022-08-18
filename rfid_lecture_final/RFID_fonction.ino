@@ -47,6 +47,7 @@ void carteid()
   Serial.print("Adresse :"); Serial.println(vardata[8]);
   Serial.print("Ville :"); Serial.println(vardata[9]);
   Serial.print("Pays :"); Serial.println(vardata[10]);
+  Serial.print("Commune :"); Serial.println(vardata[12]);
 
 
 
@@ -105,4 +106,3 @@ void uidcarte()
 
 
 }
-
