@@ -82,7 +82,7 @@ void setup() {
 }
 void loop() {
 
-  if (incementvar < 5)
+  if (incementvar < 6)
   {
     SPI.begin();        // Initialisation du bus SPI
     mfrc522.PCD_Init(); // Inititilisation de la carte MFRC522
@@ -134,5 +134,3 @@ void loop() {
 
 
 }
-
-
