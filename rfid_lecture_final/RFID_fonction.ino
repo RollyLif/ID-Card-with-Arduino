@@ -41,15 +41,19 @@ void carteid()
   Serial.println(); Serial.println("***************** CARTE IDENTITÉ*****************"); Serial.println();
 
   Serial.print("Nom :"); Serial.println(vardata[4]);
-  Serial.print("Prénom :"); Serial.println(vardata[5]);
-  Serial.print("Age :"); Serial.println(vardata[6]);
+  Serial.print("PostNom :"); Serial.println(vardata[5]);
+  Serial.print("Prénom :"); Serial.println(vardata[6]);
 
-  Serial.print("Adresse :"); Serial.println(vardata[8]);
-  Serial.print("Ville :"); Serial.println(vardata[9]);
-  Serial.print("Pays :"); Serial.println(vardata[10]);
-  Serial.print("Commune :"); Serial.println(vardata[12]);
+  Serial.print("Lieu de naissance :"); Serial.println(vardata[8]);
+  Serial.print("Date de naissance(JJ/MM/AAAA) :"); Serial.println(vardata[9]);
+  Serial.print("Village :"); Serial.println(vardata[10]);
+  
+  Serial.print("Commune ou chefferie ou Secteur :"); Serial.println(vardata[12]);
+  Serial.print("Territoire ou  ville:"); Serial.println(vardata[13]);  
+  Serial.print("Province :"); Serial.println(vardata[14]);
 
-
+  Serial.print("Nom du père:"); Serial.println(vardata[16]);  
+  Serial.print("Nom de la mère :"); Serial.println(vardata[17]);
 
 }
 
